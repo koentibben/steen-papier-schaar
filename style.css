@@ -1,0 +1,52 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     background: lightgray;
+ }
+
+ body {
+     display: flex;
+     min-height: 100vh;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+
+ h1 {
+    color: #7c795d;
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 72px;
+    margin: 0;
+    text-align: center;
+ }
+
+ .boxes {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 16px;
+ }
+
+ img {
+    width: 75%;
+    height: 75%; 
+    object-fit: fill;
+}
+
+ .boxes div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    background: white;
+    border: black;
+    border-style: solid;
+ }
+
+ .box:hover {
+    cursor: pointer;
+ }
